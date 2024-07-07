@@ -40,7 +40,7 @@
    This command reads the first 2 packets from `file.pcap`, with `-n` disabling hostname resolution, `-t` omitting timestamps, and `-c 2` stopping after 2 packets.
 
 4. `tcpdump -r file.pcap -ntxc 2`
-   Reads the first 2 packets from `file.pcap` with hexadecimal output (`-x`), without resolving hostnames (`-n`) or printing timestamps (`-t`).
+   Reads the first 2 packets from `file.pcap` with hexadecimal output (`-x`), without resolving hostnames (`-n`) and without printing timestamps (`-t`).
 
 5. `tcpdump -r file.pcap -ntvc 2`
    This command is similar to the previous one but adds verbosity (`-v`) to the output.
